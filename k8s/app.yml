@@ -35,9 +35,10 @@ spec:
         project: robohsoop
         component: mongodb
     spec:
-      terminationGracePeriodSeconds: 10
+      imagePullSecrets:
+        - name: docker-reg-myquitqa-credential
       containers:
         - name: mongodb
-          image: 000100000/amatkishore:22
+          image: super012.azurecr.io/amat_mango:NewVersion
           ports:
             - containerPort: 27017
