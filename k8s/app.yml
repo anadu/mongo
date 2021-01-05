@@ -36,9 +36,9 @@ spec:
         component: mongodb
     spec:
       imagePullSecrets:
-        - name: docker-reg-credential
+        - name: super012
       containers:
         - name: mongodb
-          image: super012.azurecr.io/amat_mango:NewVersion
+          image: super012.azurecr.io/amat_mango:1
           ports:
             - containerPort: 27017
