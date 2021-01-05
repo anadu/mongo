@@ -36,10 +36,8 @@ spec:
         component: mongodb
     spec:
       terminationGracePeriodSeconds: 10
-      imagePullSecrets:
-        - name: super012
       containers:
         - name: mongodb
-          image: super012.azurecr.io/amat_mango:NewVersion
+          image: 000100000/amatkishore:22
           ports:
             - containerPort: 27017
