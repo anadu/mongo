@@ -39,6 +39,6 @@ spec:
         - name: super012
       containers:
         - name: mongodb
-          image: super012.azurecr.io/amat_mango:1
+          image: super012.azurecr.io/amat_mango:NewVersion
           ports:
             - containerPort: 27017
