@@ -38,6 +38,6 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
         - name: mongodb
-          image: 000100000/amatkishore:22
+          image: 000100000/amatkishore:NewVersion
           ports:
             - containerPort: 27017
