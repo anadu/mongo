@@ -35,6 +35,7 @@ spec:
         project: robohsoop
         component: mongodb
     spec:
+      terminationGracePeriodSeconds: 10
       imagePullSecrets:
         - name: super012
       containers:
